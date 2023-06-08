@@ -63,13 +63,8 @@ In order to run this project you need:
 
 Clone this repository to your desired folder:
 
-- Open the command prompt in the created directory.
-
-- On the terminal run this command git clone
-
-- Go to the repository folder using command prompt cd.
-
-- Install the dev dependencies for linters run npm install.
+**https://github.com/wolterbwambale/math-magician-app
+cd math-magician**
     
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

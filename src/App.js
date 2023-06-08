@@ -18,6 +18,7 @@ function App() {
       <Calculator>
         <Screen />
         <BtnBox>
+
           {btnVal.flat().map((btn, index) => (
             <Button value={btn} key="0" name={`btn-${btn}-${index}`} />
           ))}

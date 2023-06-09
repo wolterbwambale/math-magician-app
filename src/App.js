@@ -3,6 +3,7 @@ import Button from './components/Button';
 import Calculator from './components/calculator';
 import Screen from './components/display';
 import BtnBox from './components/ButtonB';
+import Quote from './components/quote';
 
 const btnVal = [
   ['AC', '+/-', '%', '÷'],
@@ -15,6 +16,7 @@ const btnVal = [
 function App() {
   return (
     <div>
+      <Quote />
       <Calculator>
         <Screen />
         <BtnBox>
@@ -24,6 +26,7 @@ function App() {
           ))}
         </BtnBox>
       </Calculator>
+
     </div>
   );
 }

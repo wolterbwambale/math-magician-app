@@ -125,6 +125,7 @@ const Calculator = ({ children }) => {
         {children}
       </div>
     </div>
+
   );
 };
 

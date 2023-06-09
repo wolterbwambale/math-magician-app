@@ -3,6 +3,7 @@ import Button from './components/Button';
 import Calculator from './components/calculator';
 import Screen from './components/display';
 import BtnBox from './components/ButtonB';
+import Quote from './components/quote';
 
 const btnVal = [
   ['AC', '+/-', '%', '÷'],
@@ -15,14 +16,17 @@ const btnVal = [
 function App() {
   return (
     <div>
+      <Quote />
       <Calculator>
         <Screen />
         <BtnBox>
+
           {btnVal.flat().map((btn, index) => (
             <Button value={btn} key="0" name={`btn-${btn}-${index}`} />
           ))}
         </BtnBox>
       </Calculator>
+
     </div>
   );
 }

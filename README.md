@@ -13,6 +13,7 @@
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
+ - [❓ FAQ ](#-faq-)
 - [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
@@ -23,84 +24,62 @@
 
 ## 🛠 Built With <a name="built-with"></a>
    React
-    CSS
-    ES6
-    JavaScript
-
-
+   CSS
+   ES6
+   JavaScript
 
 
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-- Create a local directory that you want to clone the repository.
-
-- Open the command prompt in the created directory.
-
-- On the terminal run this command git clone.
-
-- Go to the repository folder using command prompt cd.
-
-- Install the dev dependencies for linters run npm install.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-### Prerequisites
-
-In order to run this project you need:
-
--Google chrome
-
--Internet Explorer
-
--Any broswer
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+To get a local copy up and running, follow these steps.
 
 ### Setup
 
 Clone this repository to your desired folder:
 
-- Open the command prompt in the created directory.
+```sh
+  https://github.com/wolterbwambale/math-magician-app
+  cd math-magiacian-app
+```
 
-- On the terminal run this command git clone
+### Install
 
-- Go to the repository folder using command prompt cd.
+Install this project with:
 
-- Install the dev dependencies for linters run npm install.
-    
+```sh
+  npm install
+```
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+### Usage
+
+To run the project in a development server, execute the following command:
+
+```sh
+  npm start
+```
+
+### Testing
+
+To run the tests in a development server, execute the following command:
+
+```sh
+  npm test
+```
+
+To to build for the production, execute the following command:
+
+```sh
+  npm run build
+```
 
 ### Deployment
-It will be deployed after merge
+
+You can deploy this project using [Github Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- Author -->
-👤 **Bwambale**
-
-- GitHub: [Bwambale](https://github.com/wolterbwambale/)
-- Twitter: [Bwambale](https://twitter.com/BwambaleWolter)
-- LinkedIn: [Bwambale](https://www.linkedin.com/in/bwambale-benny-wolter-a9284925a/)
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-<!-- FUTURE FEATURES -->
-
-## 🔭 Future Features <a name="future-features"></a>
-
-- Implement the design of calculator
-- Implement ES6 modules
-- Implement jsx 
-
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTRIBUTING -->
 
@@ -108,7 +87,7 @@ It will be deployed after merge
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/wolterbwambale/To-do-ist/issues/).
+Feel free to check the [issues page](https://github.com/wolterbwambale/).
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -136,7 +115,19 @@ Give a ⭐️ if you like this project!
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+## ❓ FAQ <a name="faq"></a>
 
+> Add at least 2 questions new developers would ask when they decide to use your project.
+
+- **What is this project?**
+
+  - It's a project of micoverse curriculum.
+
+- **Is there any SQL database for this site**
+
+  - No, there isn't. However, I used javascirpt objects stored in a file as a small database.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 <!-- LICENSE -->

@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Screen = () => (
-  <div className="dis-numpber">0</div>
+  <div className="dis-numpber" />
 );
 
 export default Screen;

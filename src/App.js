@@ -1,33 +1,22 @@
 import React from 'react';
-import Button from './components/Button';
-import Calculator from './components/calculator';
-import Screen from './components/display';
-import BtnBox from './components/ButtonB';
-import Quote from './components/quote';
-
-const btnVal = [
-  ['AC', '+/-', '%', '÷'],
-  [7, 8, 9, 'x'],
-  [4, 5, 6, '-'],
-  [1, 2, 3, '+'],
-  ['0', '.', '='],
-];
+import { Route, Routes } from 'react-router-dom';
+import CalculatorPage from './components/CalculatorPage';
+import Home from './components/Home';
+import QuotesPage from './components/QuotesPage';
+import Navbar from './components/Navbar';
 
 function App() {
   return (
-    <div>
-      <Quote />
-      <Calculator>
-        <Screen />
-        <BtnBox>
 
-          {btnVal.flat().map((btn, index) => (
-            <Button value={btn} key="0" name={`btn-${btn}-${index}`} />
-          ))}
-        </BtnBox>
-      </Calculator>
+    <>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/calculator" element={<CalculatorPage />} />
+        <Route path="/quote" element={<QuotesPage />} />
+      </Routes>
+    </>
 
-    </div>
   );
 }
 

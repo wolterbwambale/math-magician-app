@@ -27,6 +27,7 @@ const Calculator = ({ children }) => {
   const { total, operation, next } = screen;
 
   return (
+
     <div
       className="container"
       onClick={handleContainerClick}

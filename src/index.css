@@ -15,6 +15,53 @@ body {
   font-family: 'Mukta', sans-serif;
 }
 
+.navbar {
+  background-color: #f1f1f1;
+  padding: 10px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9999;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.navbar-list {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  padding: 0;
+}
+
+.navbar-link {
+  display: flex;
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  font-size: 16px;
+  margin-left: 10px;
+  padding: 5px;
+}
+
+li {
+  list-style: none;
+  font-size: 20px;
+  text-align: center;
+}
+
+li:nth-child(1),
+li:nth-child(2) {
+  border-right: 2px solid;
+  border-right-width: 1px;
+}
+
 .container {
   background: #8f8d8d;
   width: 50rem;
@@ -22,6 +69,7 @@ body {
   margin-top: 4rem;
   border-radius: 0.1rem;
   color: #fff;
+  margin-left: 20%;
 }
 
 .answer {
@@ -74,8 +122,26 @@ h1 {
   text-align: center;
 }
 
-li {
-  list-style: none;
-  font-size: 20px;
-  text-align: center;
+.home {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.home h1 {
+  text-align: left;
+  font-size: 40px;
+}
+
+p {
+  margin-bottom: 10px;
+  font-size: 1.3rem;
+}
+
+.letsheading {
+  text-align: left;
+  font-size: 24px;
+  text-transform: capitalize;
+  margin-left: -32%;
+  margin-top: 3rem;
 }

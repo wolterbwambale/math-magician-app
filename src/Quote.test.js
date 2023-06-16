@@ -1,5 +1,5 @@
 import React from 'react';
-import { render, waitFor } from '@testing-library/react';
+import { render, waitFor, act } from '@testing-library/react';
 import '@testing-library/jest-dom/extend-expect';
 import Quote from './components/Quote';
 
@@ -33,8 +33,10 @@ describe('Quote component', () => {
     }));
 
     const { container } = render(<Quote />);
-    await waitFor(() => {
-      expect(container.firstChild).toMatchSnapshot();
+    await act(async () => {
+      await waitFor(() => {
+        expect(container.firstChild).toMatchSnapshot();
+      });
     });
   });
 });

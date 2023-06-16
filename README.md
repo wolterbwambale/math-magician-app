@@ -4,17 +4,20 @@
 
 # 📗 Table of Contents
 
-- [📖 About the Project](#about-project)
-  - [🛠 Built With](#built-with)
-- [💻 Getting Started](#getting-started)
-- [Deployment](#Deployment)
-- [👥 Authors](#authors)
-- [🔭 Future Features](#future-features)
-- [🤝 Contributing](#contributing)
-- [⭐️ Show your support](#support)
-- [🙏 Acknowledgements](#acknowledgements)
- - [❓ FAQ ](#-faq-)
-- [📝 License](#license)
+- [� Table of Contents](#-table-of-contents)
+- [📖 Math-Magicine:Project: Math Magicine App](#-math-magicineproject-math-magicine-app)
+  - [🛠 Built With ](#-built-with-)
+  - [💻 Getting Started ](#-getting-started-)
+    - [Setup](#setup)
+    - [Install](#install)
+    - [Usage](#usage)
+    - [Testing](#testing)
+    - [Deployment](#deployment)
+  - [🤝 Contributing ](#-contributing-)
+  - [⭐️ Show your support ](#️-show-your-support-)
+  - [🙏 Acknowledgments ](#-acknowledgments-)
+  - [❓ FAQ ](#-faq-)
+  - [📝 License ](#-license-)
 
 <!-- PROJECT DESCRIPTION -->
 
@@ -97,7 +100,7 @@ Feel free to check the [issues page](https://github.com/wolterbwambale/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-Give a ⭐️ if you like this project!
+Give a ⭐️ if you like this project! thankyou 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -126,6 +129,7 @@ Give a ⭐️ if you like this project!
 - **Is there any SQL database for this site**
 
   - No, there isn't. However, I used javascirpt objects stored in a file as a small database.
+  
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

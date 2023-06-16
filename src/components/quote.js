@@ -1,3 +1,4 @@
+/* disablelinter */
 import { useState, useEffect } from 'react';
 
 function Quote() {

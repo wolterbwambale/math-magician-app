@@ -1,0 +1,95 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`calculate should append a decimal point to obj.next when buttonName is "." and obj.next does not already include a decimal point 1`] = `
+Object {
+  "next": "3.",
+  "operation": null,
+  "total": "2",
+}
+`;
+
+exports[`calculate should concatenate the buttonName to obj.next when buttonName is a number and obj.operation exists 1`] = `
+Object {
+  "next": "32",
+  "operation": "+",
+  "total": "5",
+}
+`;
+
+exports[`calculate should negate obj.next when buttonName is "+/-" and obj.next exists 1`] = `
+Object {
+  "next": "-5",
+  "operation": null,
+  "total": null,
+}
+`;
+
+exports[`calculate should negate obj.total when buttonName is "+/-" and obj.total exists 1`] = `
+Object {
+  "next": null,
+  "operation": null,
+  "total": "-5",
+}
+`;
+
+exports[`calculate should return an empty object when buttonName is "+/-" and both obj.next and obj.total are null 1`] = `Object {}`;
+
+exports[`calculate should return an empty object when buttonName is "=" and obj.next and obj.operation are both null 1`] = `Object {}`;
+
+exports[`calculate should return an empty object when buttonName is "0" and obj.next is "0" 1`] = `Object {}`;
+
+exports[`calculate should return an object with total, next, and operation set to null when buttonName is "AC" 1`] = `
+Object {
+  "next": null,
+  "operation": null,
+  "total": null,
+}
+`;
+
+exports[`calculate should return obj when buttonName is "." and obj.next already includes a decimal point 1`] = `
+Object {
+  "next": "3.",
+  "operation": null,
+  "total": "2",
+}
+`;
+
+exports[`calculate should return the result of the operation and update obj.operation to buttonName when buttonName is an operation and obj.total, obj.next, and obj.operation all exist 1`] = `
+Object {
+  "next": null,
+  "operation": "+",
+  "total": "2",
+}
+`;
+
+exports[`calculate should return the result of the operation when buttonName is "=" and obj.next and obj.operation exist 1`] = `
+Object {
+  "next": null,
+  "operation": null,
+  "total": "8",
+}
+`;
+
+exports[`calculate should set obj.next to "0." when buttonName is "." and obj.next is null and obj.operation exists 1`] = `
+Object {
+  "next": "0.",
+  "operation": "+",
+  "total": "5",
+}
+`;
+
+exports[`calculate should set obj.total to obj.next, obj.next to null, and obj.operation to buttonName when buttonName is an operation and obj.next exists 1`] = `
+Object {
+  "next": null,
+  "operation": "*",
+  "total": "5",
+}
+`;
+
+exports[`calculate should update obj.operation to buttonName when buttonName is an operation and obj.next is null and obj.total exists 1`] = `
+Object {
+  "next": null,
+  "operation": "+",
+  "total": "5",
+}
+`;

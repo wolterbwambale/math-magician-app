@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`operate should handle division by zero 1`] = `"Can't divide by 0."`;
+
+exports[`operate should handle modulo with zero divisor 1`] = `"Can't find modulo as can't divide by 0."`;
+
+exports[`operate should perform addition correctly 1`] = `"15"`;
+
+exports[`operate should perform division correctly 1`] = `"2"`;
+
+exports[`operate should perform modulo correctly 1`] = `"0"`;
+
+exports[`operate should perform multiplication correctly 1`] = `"50"`;
+
+exports[`operate should perform subtraction correctly 1`] = `"5"`;

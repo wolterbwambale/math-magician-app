@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Quote component renders error state if fetching quotes fails 1`] = `
+<div>
+  Something went wrong!
+</div>
+`;
+
+exports[`Quote component renders loading state initially 1`] = `
+<div>
+  Loading...
+</div>
+`;
+
+exports[`Quote component renders quotes when fetched successfully 1`] = `
+<div>
+  Loading...
+</div>
+`;

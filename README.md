@@ -126,6 +126,7 @@ Give a ⭐️ if you like this project!
 - **Is there any SQL database for this site**
 
   - No, there isn't. However, I used javascirpt objects stored in a file as a small database.
+  
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

@@ -1,7 +1,7 @@
 import React from 'react';
 import { render, waitFor, act } from '@testing-library/react';
 import '@testing-library/jest-dom/extend-expect';
-import Quote from './components/Quote';
+import Quote from './components/quote';
 
 describe('Quote component', () => {
   test('renders loading state initially', () => {
